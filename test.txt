@@ -1,0 +1,18 @@
+git push commands
+-----------------
+#first create a directory and goto inside a directory
+git config --global user.name "username"
+git config --global user.email "emailid"
+
+#then clone the github repo url
+$git init
+$git add . #add files to local repo
+$git status #to view the status of a files
+$git commit -m 'commit messege'
+$git remote add origin https://github.com/AnurAshok/sonarqube_installation.git/
+   1 git branch origin
+   2  git branch
+   3  git merge origin main
+   4  git fetch origin
+   5  git merge origin main   
+   6  git push -f origin main
